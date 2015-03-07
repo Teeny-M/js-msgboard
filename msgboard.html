@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>message board</title>
+<meta name="description" content="">
+<meta name="keywords" content="JavaScript,Cookie">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="name-input">
+        	<span class="name">name:</span>
+        	<input type="text" id="name" value="" />
+            <span class="tips" id='name-tips'>*invalid</span>
+        </div>
+        <div class="msg-input">
+        	<span class="msg">message:</span>
+        	<textarea id="msg"></textarea>
+            <span class="tips" id='msg-tips'>*invalid</span>
+        </div>
+        <input type="submit" value="submit" id="submit">
+        <h1 class="title">message board</h1>
+        <ol id="msg-board"></ol>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

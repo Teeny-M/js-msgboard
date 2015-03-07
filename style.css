@@ -1,0 +1,65 @@
+.wrapper {
+    width: 1000px;
+ 
+    margin: auto;
+    font-family: Microsoft Yahei;
+}
+.wrapper .name-input {
+ 
+    margin: 0 0 20px 400px;
+}
+.wrapper .name-input .name {
+ }
+.wrapper .name-input #name {
+    display: block;
+ }
+.tips {
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.wrapper .msg-input {
+    margin-left: 400px;
+ }
+.wrapper .msg-input .msg {
+ 
+}
+.wrapper .msg-input #msg {
+    display: block;
+ }
+ .wrapper #submit {
+    margin: 20px 0 0 400px;
+}
+.wrapper .title {
+    margin-left: 400px;
+ }
+.wrapper #msg-board {
+    margin-left: 400px;
+ 
+    padding-left: 20px;
+}
+.wrapper #msg-board .item {
+ }
+.wrapper #msg-board .item-name {
+    margin-right: 10px;
+ 
+    font-weight: bold;
+}
+.wrapper #msg-board .item-msg {
+    margin-right: 10px;
+ }
+.wrapper #msg-board .item-time {
+    margin-right: 10px;
+ 
+    font-style: italic;
+}
+.wrapper #msg-board .item-del {
+    font-size: 30px;
+ 
+    color: red;
+    vertical-align: -7%;
+}
+.wrapper #msg-board .item-del:hover {
+	color: #B21010;
+	cursor: pointer;
+}
